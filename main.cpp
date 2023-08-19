@@ -37,7 +37,8 @@ public:
       //timer010 = 0.09; //for screenshot!
       glPushMatrix();
       if (shader) shader->begin();
-      glTranslatef(0,0,-20);
+      glTranslatef(0,0,-40);
+      glRotatef(45, 0, 1, 0);
       myCat->drawCatM(0,-2,0,1.0);
 
       if (shader) shader->end();

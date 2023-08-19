@@ -1,8 +1,9 @@
 #include "Pyramid.h"
 
-void Pyramid::drawPyramid(float x, float y, float z, float size) {
+void Pyramid::drawPyramid(float x, float y, float z, float size, float angle, float xa, float xb, float xc) {
 	glPushMatrix();
 	glTranslatef(x, y, z);
+    glRotatef(angle, xa, xb, xc);
     glBegin(GL_TRIANGLES);
 
     // Base de la pirámide (triángulos)

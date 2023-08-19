@@ -12,7 +12,7 @@ class Pyramid
 public:
 	
 	Pyramid(){}
-	void drawPyramid(float x, float y, float z, float size);
+	void drawPyramid(float x, float y, float z, float size, float angle, float xa, float xb, float xc);
 	~Pyramid(){}
 };
 
