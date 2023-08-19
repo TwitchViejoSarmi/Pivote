@@ -37,6 +37,12 @@
     <Filter Include="CatM">
       <UniqueIdentifier>{c12a4048-5341-4492-a06a-7314d1874998}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pyramid">
+      <UniqueIdentifier>{9270c3c3-db1d-4a29-82bb-5f4530ec30f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeadM">
+      <UniqueIdentifier>{02ea1049-4a91-4d0a-8109-4d705fc99e9e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glew\include\Gl\glew.h">
@@ -86,6 +92,12 @@
     </ClInclude>
     <ClInclude Include="CatM.h">
       <Filter>CatM</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadM.h">
+      <Filter>HeadM</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +191,12 @@
     </ClCompile>
     <ClCompile Include="CatM.cpp">
       <Filter>CatM</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadM.cpp">
+      <Filter>HeadM</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

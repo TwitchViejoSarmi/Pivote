@@ -9,18 +9,25 @@
 
 #include "Tail.h"
 #include "Cylinder.h"
+#include "HeadM.h"
 
 class CatM
 {
 protected:
 	Tail* catTail;
 	Cylinder* catBody;
+	HeadM* catHead;
 public:
 	CatM(){
 		catTail = new Tail();
 		catBody = new Cylinder();
+		catHead = new HeadM();
 	}
 	void drawCatM(float x, float y, float z, float size);
-	~CatM(){}
+	~CatM(){
+		delete catTail;
+		delete catBody;
+		delete catHead;
+	}
 };
 

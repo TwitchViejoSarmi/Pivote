@@ -92,6 +92,8 @@
   <ItemGroup>
     <ClInclude Include="CatM.h" />
     <ClInclude Include="Cylinder.h" />
+    <ClInclude Include="HeadM.h" />
+    <ClInclude Include="Pyramid.h" />
     <ClInclude Include="Tail.h" />
     <ClInclude Include="cwc\include\glApplication.h" />
     <ClInclude Include="cwc\include\glsl.h" />
@@ -110,6 +112,8 @@
   <ItemGroup>
     <ClCompile Include="CatM.cpp" />
     <ClCompile Include="Cylinder.cpp" />
+    <ClCompile Include="HeadM.cpp" />
+    <ClCompile Include="Pyramid.cpp" />
     <ClCompile Include="Tail.cpp" />
     <ClCompile Include="cwc\source\glApplication.cpp" />
     <ClCompile Include="cwc\source\glsl.cpp" />
